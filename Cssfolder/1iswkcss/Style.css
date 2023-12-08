@@ -1,0 +1,15 @@
+*{background-color: red; color: green;}
+/* h1{color: orange;} */
+/* h2{color: blue;}
+
+.class{color: blueviolet;}
+
+#id{color: yellow;} */
+
+/* In the descending order the value is expressed in precedent to the type of selector */
+/* 
+Group selectors adjusts the properties within the delclared selctors
+h1, h2 {color: blueviolet;}
+h1, h2{color: yellow;}
+h3 {font-family: Arial, Helvetica, sans-serif;} */
+*{font-family: "Vina Sans";}

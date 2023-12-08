@@ -1,0 +1,21 @@
+.form{
+    border: 2px solid black;
+    width: 200px;
+}
+body{
+    justify-content: center;
+}
+#button{
+    width: 70px;
+    height: 50px;
+    background-color: blue;
+    margin-top: 20px;
+    transition: width 4s, background-color 4s;
+    border-radius: 23px;
+}
+
+#button:hover{
+    width: 70px;
+    background-color: red;
+
+}

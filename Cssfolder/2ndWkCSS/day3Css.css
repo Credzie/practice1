@@ -1,0 +1,42 @@
+.transition{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin-top: 20px;
+    transition: width 4s, background-color 4s;
+}
+.transition:hover{
+    width: 200px;
+    background-color: red;
+}
+
+/* Transform property */
+
+.transform{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    color: white;
+    /* transform: translate(100px,50px); */
+  transition: transform 4s;
+
+}
+
+.transform:hover{
+    transform: rotate(360deg);
+}
+
+.translate{
+    width: 100px;
+    height: 100px;
+    background-color:greenyellow;
+    color: rgb(144, 0, 255);
+
+}
+.fa-solid{
+    font-size: 50px;
+
+
+}
+
+/* create a registration form  */

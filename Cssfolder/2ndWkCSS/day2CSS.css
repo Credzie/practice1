@@ -1,0 +1,99 @@
+/* Media Quey */
+/* we can use it to cheack the styling of elements on different deveices and to make the website responsive*/
+/* 
+body{background-color: coral;
+}
+
+.box1{
+    background-color: greenyellow;
+    height: 200px;
+    width: 200px;
+}
+.box2{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+/* *{ display: inline;} */
+/* .div{
+    display: inline;
+}
+
+@media (min-width:600px) and (max-width:800px)
+{
+    body{
+        background-color: blueviolet;
+    }
+    h1{
+        font-size: 40px;
+    }
+    div{
+        clear: both; */
+    
+
+
+/* create a simple Navigation bar , when your screen size become smaller than 700px, the tabs should display in different lines */
+
+/* *{background-color: red;} */
+.navbar{
+   height: 100px;
+   width: 50px;
+    color: green;
+    display: inline;
+}
+
+@media (max-width:700px)
+{
+    .navbar{
+        background-color: yellow;
+        display:grid ;
+        font-size: 50px;
+
+    }
+    body{background-color: blue;}
+}
+
+
+table,tr,td{
+    border: 2px solid black;
+   
+}
+tr:nth-child(3n-1){
+    background-color: blue;
+}
+tr:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+/*nth child pseudo selectors
+ 
+The :nth-child(n) selector matches every element that is the nth child (regardless of type)
+of its parent.
+ 
+n   = 0 1  2  3  4  5  6  7
+3n  = 1 3 6 9 12 15 18 21
+3n+1= 1 4 7 10 13 16 19
+ 
+n  = a number, a keyword, or a formula. 3n  nth term
+ 
+ it is written like this:
+ <html element, id, class>:nth-child(<number, keyword or formula>){
+ 
+     items inside the curly brackets will affect the items targetted
+ } */
+
+ /* Before and after Pseudo selectors---
+  The :: before selector inserts something before the content of each selected element(s) 
+  Use the content property to specify the content to insert.
+  Use the ::after selector to insert something after the content
+  */
+
+  h1::before{
+    content: url(https://www.google.com/logos/doodles/2023/celebrating-ahmed-the-elephant-6753651837109982-2x.png);
+    height: 20px;
+    width: 20px;
+  }
+
+  h1::after{
+    content: "Added using CSS";
+  }

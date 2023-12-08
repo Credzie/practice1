@@ -1,0 +1,103 @@
+/* Font Import and Base Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Box-Sizing to Border-Box */
+/* This includes padding and border in the H and W of the element */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    border: 3px solid black;
+    height: 80vh;
+    border-radius: 10px;
+    /* overflow hides the any elements that overflow the container */
+    overflow: hidden;
+}
+
+/* Flexbox Reference: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+/* Flexbox Diagram: https://css-tricks.com/wp-content/uploads/2018/11/00-basic-terminology.svg */
+
+/* Colours for each box */
+
+
+.box1 {
+    background: #ff4757;
+}
+
+.box2 {
+    background: #1e90ff;
+}
+
+.box3 {
+    background: #2ed573;
+}
+
+/* Write Flexbox Code Below: */
+
+.container{
+    display: flex;
+
+    /* felex direction controls the main axis of your flexbox */
+    /* row - Horizontal, Colum is vertial */
+    /* flex-direction: column; */
+
+    /* flex-wrap - dictates whether you would like elements to wrap onto */
+    /* Can also dictate */
+    /* flex-wrap: wrap; */
+
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content:space-between ; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+   
+
+
+    /* align-items: flex-end; */
+    /* this action dictates how you items are arranged on the second axis */
+
+
+/* align-content: flex-start ; */
+/* align-content: flex-end; */
+/* align-content: first baseline; */
+/* align-content is very similar to justify-content */
+/* however only takes effect if element are wrapped across more */
+}
+
+.box2{
+    /* align-self: flex-start; */
+    /* align-self: flex-end; */
+    align-self: baseline;
+    /* font-size: 200px; */
+    /* flex-basis: 500px; */
+    /* flex-grow: 2; */
+    /* flex-shrink: 3; */
+}
+.box1{
+    align-self: baseline;
+    flex-basis: 0px;
+
+}
+.box3{
+    align-self: baseline;
+    flex-basis: 0px;
+
+}
+

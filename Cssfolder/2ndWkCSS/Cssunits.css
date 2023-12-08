@@ -1,0 +1,45 @@
+/* CSS UNITS  */
+/* *em, rem, vh, and vw units 16px 32px 48px */
+
+/* em - relative to the font-size of the parent element (2em means 2 times the parent element
+   rem - relative to font-size of the root element 
+   vh - relative to 1% of the height of the viewport 
+   vw - relative to 1% of the weight of the viewport*
+   % - Relative to viewport*/
+
+    /* CSS Units */
+/*em, rem, vh, and vw units  16px 32px 48px
+em = Relative to the font-size of the parent element (2em means 2 times the size of the current font)
+rem = Relative to font-size of the root element - in html doc root is always <html>
+vh = Relative to 1% of the height of the viewport*
+vw = Relative to 1% of the width of the viewport*
+% = Relative to viewport*
+* Viewport = the browser window size.
+*/
+/* .header{​​
+    font-size: 2em;
+}​​
+html{​​
+    font-size: 30px;
+}​​
+.menu{​​
+    font-size: 2rem;
+}​​
+.div1{​​
+    background-color: brown;
+    height: 80vh;
+    width: 50vw;
+}​​
+.main{​​
+    width: 200px;
+    background-color: blueviolet;
+    height: 100px;
+}​​
+.child{​​
+    width: 90%;
+    height: 50%;
+    background-color: chartreuse;
+}​​
+<https://teams.microsoft.com/l/message/19:AoFuxukFPcVDPJe1D9LxBjxBuwZ7rvJ71WQmrMqZkZE1@thread.tacv2/1701692845679?tenantId=6efd0f20-57c8-4447-b53f-00d4992ca50b&amp;groupId=18bb3240-1a79-49db-83d8-8128cc5a6180&amp;parentMessageId=1700394046033&amp;teamName=dfe software dev 20/11/2023 cohort 5&amp;channelName=General&amp;createdTime=1701692845679&amp;allowXTenantAccess=false> */
+
+   
