@@ -7,9 +7,9 @@ body{
 }
 #button{
     width: 70px;
-    height: 50px;
+    height: 60px;
     background-color: blue;
-    margin-top: 20px;
+    margin-top: 30px;
     transition: width 4s, background-color 4s;
     border-radius: 23px;
 }
