@@ -139,7 +139,7 @@ else{
    do something else, because the condion above is not met
 }
 
-
+// 
 if (condition){
    do something
 }
@@ -160,17 +160,74 @@ if (userNum == computerNum){
     document.write(`</br> The value ${userNum} is the same as ${computerNum}`)
 } else {
     console.log("The value are not the same !!")
-    document.write(`</br> The value ${userNum} is not the same as ${computerNum} !!!`)
+    document.write(`</br> The value ${userNum} is not the same as ${computerNum} !!!</br>`)
 
 };
+// Using the Ternary Operator (:) 
+document.write(`</br>Ternary operator instead of if else </br> `);
+ 
+let numberCheck = (userNum == computerNum) ? "The values are the same":"The values are not the same!!!!";
+ 
+console.log(numberCheck);
+document.write(numberCheck);
 
 
 
+let systemPassword = "Password";
+let userPass = "password";
 
-// numbers if, else 
+if(systemPassword === userPass){
+    console.log("Welcome user")
+    document.write("Welcome User, Passwaord login successful")
+}
+else{
+    console.log("Incorrect Password")
+    document.write("Incorrect Password")
+};
+// 
+document.write(`<br> </br>`);
+if(userNum > computerNum){
+    console.log(`<br> ${userNum} is bigger.  </br>`)
+document.write(`<br> ${userNum} is bigger than ${computerNum} </br>`)
+
+}else if(computerNum > userNum){
+    console.log(`<br> ${computerNum} is bigger.  </br>`)
+document.write(`<br> ${computerNum} is bigger than ${userNum} </br>`)
+
+}else if(computerNum === userNum){
+    console.log(`<br> ${computerNum} and ${userNum} is the same.  </br>`)
+document.write(`<br> ${userNum} is the same as ${computerNum} </br>`)
+}else{
+    console.log(`<br> Invalid input! </br>`)
+    document.write("</br> Incorrect Password </br>")
+};
+
+// 
+if (userNum >20 && computerNum <= 50){
+    console.log(`</br> Valid  .</br>`)
+    document.write(`</br>Valid .</br></br>`)}
+ 
+else{
+    console.log(`</br> invalid .</br>`)
+    document.write(`</br>invalid.</br></br>`)
+ 
+}
+ 
+if (userNum >20 && userNum <= 50){
+    console.log(`</br> Valid  .</br>`)
+    document.write(`</br>Valid .</br></br>`)}
+ 
+else{
+    console.log(`</br> invalid .</br>`)
+    document.write(`</br>invalid.</br></br>`)
+ 
+}
+ 
+ 
 
 
-// Names if, 
+// numbers if,
+//  else Names if, 
 // else if,
 //  else
 
@@ -194,9 +251,17 @@ if(trafficLight === "Green"){
 } else{
    console.log("faulty traffic lights, beware of other road users before crossing")
 document.write(`</br>"faulty traffic lights, beware of other road users before crossing`)
-}
+};
  
-
+if (trafficLight === "Red" || trafficLight === "Amber"){
+    console.log(`</br> Stop.</br>`)
+    document.write(`</br>Stop</br></br>`)}
+ 
+else{
+    console.log(`</br> Go .</br>`)
+    document.write(`</br>Go</br></br>`)
+ 
+};
 
 
 // Switch case 
@@ -222,3 +287,37 @@ document.write(`</br>"faulty traffic lights, beware of other road users before c
         document.write("some text to displa")
 } */
 
+let day = "Friday";
+ 
+switch(day){
+    case "Monday":
+        document.write("Today is Monday")
+        break; // exit if the case is a match
+    case "Tuesday":
+        document.write("Today is Tuesday")
+        break; // exit if the case is a match
+    case "Wednesday":
+        document.write(`Today is ${day}`)
+        break; // exit if the case is a match
+    case "Thursday":
+        document.write("Today is Thursday")
+        break; // exit if the case is a match
+    case "Friday":
+        document.write("Today is Friday")
+        break; // exit if the case is a match
+    default:
+        document.write(`Today is the Weekend}`)
+};
+
+let custAge = 18;
+
+if(custAge > 18){
+    console.log("Customer is Allowed to be served")
+    document.write(`</br> Customer ${custAge} is allowed service`)
+}else if( custAge = 18){
+    console.log("Customer is Allowed to be served")
+    document.write(`</br> Customer ${custAge} is allowed service`)
+}else{
+    console.log("Customer is Not! Allowed to be served")
+    document.write(`</br> Customer ${custAge} Not! is allowed service`)
+};
