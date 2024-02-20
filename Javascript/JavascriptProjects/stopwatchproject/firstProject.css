@@ -1,0 +1,63 @@
+/* Variables */
+/* $orange: #ffa600;
+$grey:#f3f3f3;
+$white: #fff;
+$base-color:$orange ; */
+
+
+/* mixin's */
+/* @mixin transition {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+     transition: all 0.5s ease-in-out;   
+}
+@mixin corners ($radius){
+    -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+    -khtml-border-radius: $radius;
+} */
+body {
+    background-color:orange;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    height: 100%; 
+}
+
+.stopwatch{
+    width: 800px;
+    margin: 30px auto;
+    color:white;
+    text-align:center;
+}
+h1, h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+#seconds, #mins{
+    font-size: 2em;
+}
+button{
+    @include corners (5px);
+    background:blue;
+    color:white;
+    border: solid 1px white;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:1.2em;
+    padding:18px 10px;
+    width:180px;
+    margin: 10px;
+    outline: none;
+    &:hover{
+        @include transition;
+        background:white;
+        border: solid 1px white;
+        color:orange;
+
+    }
+}
+
+
+
