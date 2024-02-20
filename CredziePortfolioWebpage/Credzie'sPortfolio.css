@@ -1,0 +1,60 @@
+/* 
+.headingoptions{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+} */
+.profilepic{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    
+}
+
+#profilepic{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 300px;
+    width: 300px;
+    margin-left: 0%;
+
+}
+
+.profileh1{
+    align-self: flex-end;
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-right: 10vw;
+}
+.profileh2{
+    align-self: flex-end;
+    margin-right: 8vw;
+    margin-top: 0;
+    margin-bottom: 1vh
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+headinglayout{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 50%;
+}
