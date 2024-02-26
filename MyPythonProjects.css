@@ -5,5 +5,32 @@
 } */
 
 .projects{
-    display: flex;
+    background-color: rgb(35, 70, 35);
+    color:yellowgreen;
+   display: block;
+   width: fit-content;
+}
+
+#Heading{
+background-color: rgb(33, 54, 33);
+color: whitesmoke;
+font-size: 100px;
+width: fit-content;
+margin-top: auto;
+}
+
+#Intro{
+    background-color: rgb(33, 54, 33);
+color: yellowgreen;
+}
+#pIntro{
+        display: block;
+}
+
+p{
+    color: yellowgreen;
+}
+
+body{
+    background-color: rgb(33, 54, 33);
 }
