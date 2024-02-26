@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    background-color: rgb(30, 158, 21);
+    font-family: 'Roboto Mono', monospace;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color:black;
+}
+
+#Aboutme{
+    border: solid 2px red;
+    background-color: rgb(160, 213, 111);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 350px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+#img3{
+    width: 700px;
+
+
+}
+#img2{
+   
+    width: 700px;
+}
+#img1{
+    width: 700px;
+}
+
+h1{
+    background-color: rgb(35, 58, 35);
+    color: aliceblue;
+}
