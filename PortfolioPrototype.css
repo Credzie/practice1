@@ -1,0 +1,203 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    background-color: green;
+    color:greenyellow;
+    display: block;}
+
+    .opening {
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        height: auto;
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        margin-left: 450px;
+        background-color: greenyellow;
+        width: max-content;
+        border-radius: 10%;
+    }
+
+        .opening .logo {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+    }
+    img {
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    }
+        .opening img {
+            height: 100vh;
+            opacity: 0.8;}
+
+    .headingDetails{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+        .headingDetails h1 {
+            font-size: 2em;
+            margin-bottom: 0;
+            margin-right: 10vw;}
+        .headingDetails h2 {
+            align-self: flex-end;
+            margin-right: 8vw;
+            margin-top: 0;
+            margin-bottom: 1vh;}
+
+        .headingDetails a {
+            align-self: flex-end;
+            font-size: 2rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            color:yellowgreen;
+            background: black;
+            border-color: green;
+            border-style: solid;
+            border-width: 2px;
+            /* box-shadow: 2px 2px #adb5bd; */
+            text-align: center;
+             width: 12vw;
+             height: auto;
+            padding-left: 15px;
+             padding-right: 15px;
+             margin-top: 1vh;
+            margin-right: 6vw;}
+
+    .about {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+    .aboutme {
+        width: 70%;
+        height: 80%;
+        margin: 5%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;}
+
+        .aboutme h1{
+            order: 1;
+            font-size: 2rem;
+            text-align: center;
+            text-transform: uppercase;}
+
+        .aboutme p {
+            order: 2;
+            font-size: 1.3em;}
+
+    .portfolio {
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;}
+
+    .portfolioWeb {
+        position: relative;
+        width: 75%;
+        height: 35%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-align: left;
+        padding: 25px;
+        margin: 50px;
+        background-color: black;
+        background-color: linear-gradient(137deg, green 0%);
+        transition: 0.3s ease;
+        border-radius: 30px;
+        filter: drop-shadow(0px 0px 30px greenyellow);}
+
+        .portfolio h1, h2 {
+            display: flex;
+            justify-content: center;
+            text-transform: uppercase;}
+
+        .portfolio input {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2vh;
+            padding-bottom: 20px;
+            
+            text-transform: uppercase;
+            background-color:yellowgreen;
+            color: black;
+            border-radius: 10em;
+            font-size: 1.2em;
+            font-weight: 600;
+            padding: 0.8em 1.5em;
+            margin: 0 0.5em;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            /* border: 1px solid yellowgreen; */
+            /* box-shadow: 0 0 0 0 green; */
+            margin-left: 500px;
+        }
+        .portfolio iframe {
+            text-transform: uppercase;
+            background-color:green;
+            color: black;
+            border-radius: 10em;
+            font-size: 1.2em;
+            font-weight: 600;
+            padding: 0.8em 1.5em;
+            margin: 0 0.5em;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            margin-left: 300px;
+            
+        }
+
+footer {
+    display: flex;
+   justify-content: center;
+    }
+
+    footer p, input, #githubIcon, #linkedinIcon {
+        margin-right: 50px;
+        margin-top: 15px;
+        font-size: 1.8em;
+        align-self: baseline;
+        text-transform: uppercase;
+        background-color: green;
+        color: yellowgreen;
+        border-radius: 10em;
+        font-size: 1.2em;
+        font-weight: 600;
+        padding: 0.8em 1.5em;
+        margin: 0 0.5em;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        /* border: 1px solid yellowgreen; */
+        /* box-shadow: 0 0 0 0 green; */
+    
+    }
+
+
+    @media (max-width: 1500px)
+    {
+    .opening {
+        height: auto;
+    }
+    }
+    @media (max-width: 800px){
+        .landing {
+        font-size: 1.5rem;
+        height: auto;}
+    }
+
+
