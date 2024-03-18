@@ -4,7 +4,7 @@
     justify-content: flex-start;
 } */
 
-.projects{
+.ProjectBox{
     background-color: rgb(35, 70, 35);
     color:yellowgreen;
    display: block;
@@ -33,4 +33,20 @@ p{
 
 body{
     background-color: rgb(33, 54, 33);
+}
+
+@media (max-width: 480px){
+    .ProjectBox {
+    font-size: 0.9rem;
+    height: auto;
+    display: block;
+    width: fit-content;
+}
+
+.ProjectBox iframe{
+    height: auto;
+    display: block;
+    width: fit-content;
+
+}
 }

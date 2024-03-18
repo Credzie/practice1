@@ -16,6 +16,7 @@ body{
     display: block;
     justify-content: center;
     align-items: center;
+    font-size: 1.0rem;
 }
 
 img{
@@ -42,3 +43,37 @@ h1{
     background-color: rgb(35, 58, 35);
     color: aliceblue;
 }
+
+@media (max-width: 480px){
+    .body {
+    font-size: 0.5rem;
+    height: auto;
+    display: block;}
+
+    #Aboutme{
+        border: solid 2px red;
+        background-color: rgb(160, 213, 111);
+        font-family: Arial, Helvetica, sans-serif;
+        width: 400px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.9rem;
+    }
+
+    #img1{
+        width:inherit;
+    }
+
+    #img2{
+   
+        width:inherit;
+    }
+
+    #img3{
+        width:inherit;
+    
+    
+    }
+}
+

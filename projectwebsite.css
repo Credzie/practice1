@@ -7,17 +7,25 @@
     /* margin-right: 5%; */
 }
 
+body{
+    background: url(https://thumbs.dreamstime.com/z/collection-logos-major-european-football-leagues-most-important-competitions-collection-logos-major-127569593.jpg?ct=jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 1rem;
+}
 
 
 #parentbox{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: (5, 100px); */
+    /* grid-template-rows: (5, 100px); */
+
+    grid-template-columns: repeat(auto-fit, 20rem);
+    /* grid-template-rows: (5, 1fr); */
+    justify-content: center;
     border: solid blue 2px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    overflow: hidden;
+    height: 1100px;
 
 }
 
@@ -36,10 +44,12 @@
 
 }
 header{
+    grid-row: 1/2;
+    grid-column: 1/6;
     /* position: fixed; */
     border: solid black 2px;
-    top: 0;
-    left: 0;
+    /* top: 0; */
+    /* left: 0; */
     color: black;
     /* width: 100%; */
     /* height: 150px; */
@@ -50,14 +60,9 @@ header{
     /* align-items: center; */
     /* z-index: 100; */
     /* margin-left: 300px; */
-    padding-left: 110px;
+    /* padding-left: 110px; */
 }
 
-body{
-    background: url(https://thumbs.dreamstime.com/z/collection-logos-major-european-football-leagues-most-important-competitions-collection-logos-major-127569593.jpg?ct=jpeg) no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 nav a {
     border: solid black 2px;
@@ -90,85 +95,45 @@ nav a {
     border: solid gold;
     background-color: rgba(255, 0, 0, 0.8);
     color: white;
+    grid-row: 2/3;
     grid-column: 1/6;
-    grid-row: 1/1;
-    padding-left: 15%;
+    /* padding-left: 15%; */
     display: flex;
-    align-items:flex-start;
+    justify-content: center;
+    /* align-items:flex-start; */
     overflow: hidden;
-    width: 1490px;
+    /* width: 1490px; */
     /* height: 100px; */
 }
 
-/* #mainlogo{
-    height: 200px;
-    width: 200px;
-    position: relative;
-    left:720px ;
-    top: 50px;
-}
-#leftlogo{height: 200px;
-width: 200px;
-position: relative;
-top: 550px;
-left: -200px;
-}
 
-#rightlogo{height: 200px;
-width: 200px;
-position: relative;
-left: 950px;
-top: 550px;
-
-}
-
-#toplogo{height: 200px;
-width: 200px;
-position: relative;
-top: 150px;
-left: 390px;
-}
-
-#bottomlogo{height: 200px;
-width: 200px;
-position: relative;
-left: 700px;
-
-} */
-/* 
-#table2{
-    margin-left:425px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#table1{
-    margin-left: 425px;
-    font-family: Arial, Helvetica, sans-serif;
-} */
 #table1{
     border: black solid 3px;
-   grid-column: 1/6;
-   grid-row: 2/6;
+    grid-row: 3/4;
+    grid-column: 1/6;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
    /* align-items: flex-start; */
     background-color: greenyellow;
-    width: 1490px;
-    height: 450px;
+    /* width: 1490px; */
+    /* height: 450px; */
+    /* margin-left: 425px; */
+    /* font-family: Arial, Helvetica, sans-serif; */
     opacity: 90%;
     
 }
 
 
 #table2{
-    /* grid-column: 2/6; */
-    /* grid-row: 3/6; */
-    display: flex;
+    /* display: flex; */
+    grid-row: 4/5;
     grid-column: 1/6;
-    grid-row: 6/6;
-     justify-content: space-around;
-   /* align-items: flex-start;  */
+    display: flex;
+    justify-content: center;
     background-color: rgb(71, 47, 255);
-    width: 1490px;
+    /* width: 1490px; */
+    /* margin-left:425px; */
+    /* font-family: Arial, Helvetica, sans-serif; */
     /* padding-left: 6%; */
     opacity: 90%;
 }
@@ -188,7 +153,6 @@ left: 700px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
-
 .input1{height: 200px;
     /* grid-column: 1/4;
     grid-row: 2/6; */
@@ -196,13 +160,8 @@ left: 700px;
     /* justify-content: center;
     align-items: center; */
 }
-
 .input2{height: 200px;}
 /* .input3{height: 200px; */
-
-
-
-
 table,tr,td{
     justify-content: center;
     align-items: center;
@@ -212,9 +171,7 @@ table,tr,td{
 
 #lastestnews{
     background-color: blue;
-    /* color: white; */
     font-size: 20px;
-
 }
 #livematches{
     background-color: orange;
@@ -223,9 +180,7 @@ table,tr,td{
 }
 #matchhighlights{
     background-color: yellowgreen;
-    /* color: white; */
     font-size: 20px;
-
 }
 #links{
     background-color: aquamarine;
@@ -255,45 +210,163 @@ table,tr,td{
 .memes{
     height: 170px;
     width: 150px;}
-/* 
-.Subcribe{
-     background-color: blue; 
-    width: 160px;
-    border-radius: 25px;
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-position: relative;
-justify-content: center;
-margin-left: 725px; */
 
 
 .clock{
     /* border: black solid 3px; */
-   grid-column: 4/6;
-   grid-row: 8/8;
+    grid-row: 6/6;
+    grid-column: 3/6;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
    /* align-items: flex-start; */
-    /* background-color: greenyellow; */
-    width: 1490px;
+    background-color: greenyellow;
+    width: 500px;
     /* height: 450px; */
     transform: translateX(-50%) translateY(-50%);
     color: rgb(51, 65, 59);
     font-size: 60px;
     font-family: Orbitron;
     letter-spacing: 7px;
-    padding-right: 20%;
+    padding-left: 7%;
+    /* padding-right: 10%; */
     /* margin-right: 90%; */
 
 }
 
-@media (max-width: 480px){
-    p{
-        font-size: 1.25rem;
+@media (min-width:360px) and (max-width: 1124px){
+    #parentbox{
+        grid-template-columns: repeat(auto-fit, 10rem);
+        height: 900px;
+        container-type: inline-size;
     }
 
+    nav a {
+        border: solid black 2px;
+        /* float: left; */
+        background-color: red;
+        position: relative;
+        /* font-size: 0px; */
+        /* color: white; */
+        /* font-weight: 5; */
+        /* text-decoration: underline; */
+        /* margin-left: 40px; */
+        border-radius: 20px;
+    }
+
+    #logo{
+        height: 120px;
+        width: 150px;
+        position: relative;
+        top: 0px;
+        padding-left: 0px;
+        visibility: hidden;
 }
-@media(max-width: 480px){
+  
+
+}
+
+@media(max-width: 360px){
+    #parentbox{
+        grid-template-columns: repeat(auto-fit, 5rem);
+        height: 800px;
+    }
+    nav a {
+        /* border: solid black 2px; */
+        /* float: left; */
+        /* position: relative; */
+
+        /* font-size: 5px; */
+        /* color: white; */
+        /* font-weight: 100; */
+        /* text-decoration: underline; */
+        /* margin-left: 40px; */
+        border-radius: 20px;
+        width: auto;
+        min-width: 0;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 1px;
+    }
+
+    #logo{
+        height: 20px;
+        width: 20px;
+        position: relative;
+        top: 0px;
+        padding-left: 0px;
+        visibility: hidden;
+}
+    #lastestnews{
+        background-color: blue;
+        font-size: 0.75rem;
+}
+    #livematches{
+        background-color: orange;
+        /* color: white; */
+        font-size: 0.75rem;
+}
+    #matchhighlights{
+        background-color: yellowgreen;
+        font-size: 0.75rem;
+}
+    #links{
+        background-color: aquamarine;
+        /* color: white; */
+        font-size: 0.75rem;
+}
+#table1{
+    border: black solid 3px;
+    grid-row: 3/4;
+    grid-column: 1/6;
+    display: flex;
+    justify-content: center;
+   /* align-items: flex-start; */
+    background-color: greenyellow;
+    /* width: 1490px; */
+    /* height: 450px; */
+    /* margin-left: 425px; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    opacity: 90%;
+    /* object-fit: contain; */
+    
+}
+table,tr,td{
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    object-fit: contain;
+
+}
+header{
+    /* grid-row: 1/2; */
+    /* grid-column: 1/6; */
+    /* position: fixed; */
+    border: solid black 2px;
+    /* top: 0; */
+    /* left: 0; */
+    color: black;
+    /* width: 100%; */
+    /* height: 150px; */
+    /* padding: 0px 100px; */
+    /* background-color: rgba(76, 0, 255, 0.8); */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* z-index: 100; */
+    /* margin-left: 300px; */
+    /* padding-left: 110px; */
+}
+
+body{
+    width: 100%;
+    min-width: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+}
+/* @media(max-width: 700px){
     p{
         font-size: 1.5rem;
         line-height: 1.5;
@@ -304,4 +377,4 @@ margin-left: 725px; */
         width: 100px;
     }
     
-}
+} */
